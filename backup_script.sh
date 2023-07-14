@@ -2,7 +2,7 @@
 
 # Récupérer les paramètres de date et de répertoire de sauvegarde
 DATE=$1
-BACKUP_DIR="/Users/tino/WebstormProjects/projet-linux-s2/Backup"
+BACKUP_DIR=""
 
 # Si la date n'est pas fournie, utiliser la date actuelle
 if [ -z "$DATE" ]; then

@@ -2,5 +2,11 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Backup/1 - 2023-07-12-04h56/projet-linux-s2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Backup/2 - 2023-07-13-04h14/projet-linux-s2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Backup/3 - 2023-07-14-05h06/projet-linux-s2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hello/1 - 2023-07-14-15h48/projet-linux-s2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hello/2 - 2023-07-14-15h49/projet-linux-s2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hello/2 - 2023-07-14-15h49/projet-linux-s2/hello/1 - 2023-07-14-15h48/projet-linux-s2" vcs="Git" />
   </component>
 </project>
