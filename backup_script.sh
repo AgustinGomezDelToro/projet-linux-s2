@@ -1,12 +1,15 @@
 #!/bin/bash
 
-# Récupérer les paramètres de date et de répertoire de sauvegarde
-DATE=$1
-BACKUP_DIR=""
-
-# Si la date n'est pas fournie, utiliser la date actuelle
-if [ -z "$DATE" ]; then
+# Vérifier si le premier paramètre est une date ou un chemin
+if [[ $1 =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+  DATE=$1
+  BACKUP_DIR=""
+elif [[ $1 =~ ^/.* ]]; then
+  BACKUP_DIR=$1
   DATE=$(date +'%Y-%m-%d')
+else
+  DATE=$(date +'%Y-%m-%d')
+  BACKUP_DIR=""
 fi
 
 # Récupérer la date et l'heure actuelles pour construire le nom de la sauvegarde
@@ -16,7 +19,6 @@ CURRENT_DATETIME=$(date +'%Y-%m-%d-%Hh%M')
 if [ -n "$DATE" ]; then
   CURRENT_DATETIME="$DATE-$(date +'%Hh%M')"
 fi
-
 
 # Si le répertoire de sauvegarde n'est pas fourni, demander à l'utilisateur
 if [ -z "$BACKUP_DIR" ]; then
