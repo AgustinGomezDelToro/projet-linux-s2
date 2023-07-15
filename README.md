@@ -1,3 +1,12 @@
+# Scripts shell
+### `./backup_script.sh`
+
+### `./backup_script.sh 2023-08-28`
+
+### `./backup_script.sh /Users/tino/WebstormProjects/projet-linux-s2/Backup`
+
+### `./backup_script.sh 2023-08-28 /Users/tino/WebstormProjects/projet-linux-s2/Backup`` ./backup_script.sh 2023-08-28 /Users/tino/WebstormProjects/projet-linux-s2/Backup`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
