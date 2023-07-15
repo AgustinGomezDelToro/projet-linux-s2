@@ -7,6 +7,9 @@
 
 ### `./backup_script.sh 2023-08-28 /Users/tino/WebstormProjects/projet-linux-s2/Backup`` ./backup_script.sh 2023-08-28 /Users/tino/WebstormProjects/projet-linux-s2/Backup`
 
+# Scripts cron
+### `30 3 * * * /bin/bash /Users/tino/WebstormProjects/projet-linux-s2/backup_auto.sh`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
